@@ -1,0 +1,128 @@
+:root{--background-color:#E5E5E5;
+--text-color: #434455;
+--title-color: #2E2F42;
+--accent-color: #4D5AE5;}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* LOGOTYP */
+.logo{text-decoration: none;}
+.logoweb {color: var(--accent-color) ;
+    width: 44px;
+    height: 24px; 
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;}
+    .logostudio{ color: var(--title-color);
+        width: 71px;
+        height: 24px;
+        font-family: 'Raleway';
+        font-size: 18px;
+        line-height: 1.3;}
+        /* Navigation */
+        .ul-style{list-style: none;}
+        .link:hover,
+        .link:focus{color: var(--accent-color);}
+       .link{
+        text-decoration: none;
+            color: var(--title-color);
+            font-weight: 500;
+font-size: 16px;
+line-height: 1.5;}
+/* Contakts */
+.contacts:hover,
+.contacts:focus{color: var(--accent-color);}
+.contacts{
+    text-decoration: none;
+    
+    color: var(--text-color);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5px;}
+        /* Sektion1 */
+        .title{ color: var(--background-color);
+                font-weight: 700;
+                font-size: 56px;
+                line-height: 1.1; }
+                /* Button */
+                .button{ color:#FFFFFF;
+                    background-color: var(--accent-color);
+                    cursor: pointer; 
+                    width: 169px;
+                        height: 56px;
+                        left: 636px;
+                        top: 428px;
+                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+                            border-radius: 4px}
+.button:hover,
+.button:focus,
+.button:active {color: var(--accent-color);
+}
+.button-text{ color: #FFFFFF;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+}
+/* Sektion2 */
+.title{color: var(--title-color);
+    font-weight: 700;
+    font-size: 36px;
+        line-height: 1.1;
+}
+.title-text{ color: var(--title-color);
+    font-weight: 500;
+        font-size: 20px;
+        line-height:1.2;
+}
+.list-text{
+    color: var(--text-color);
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/* Sektion4 */
+.title-post-text{
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+        line-height: 1.5px;
+}
+/* Footer */
+.text-post-footer{ color: var(--background-color);
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+
+}
+
+/* Portfolio */
+.button-text-portfolio{color: #4D5AE5;
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+}
+.button-style{background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    cursor:pointer;
+border-radius: 4px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.button-style:focus,
+.button-style:hover{
+    background: #4D5AE5;
+}
+.button-text-portfolio:focus,
+.button-text-portfolio:hover{font-size: 16px;
+    line-height: 1.5;
+    color:#FFFFFF;;
+
+}
+
+
+
+
+
