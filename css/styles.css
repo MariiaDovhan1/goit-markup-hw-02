@@ -13,7 +13,7 @@ body {
  text-decoration: none;}
 .logo{
 color: var(--accent-color);
-    font-family: "Raleway"sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -49,7 +49,7 @@ color: var(--accent-color);
         .section-style{background-color: var(--title-color) ;
 
         }
-        .title{ color: var(--background-color);
+        .title-hero{ color: var(--background-color);
                 font-weight: 700;
                 font-size: 56px;
                 line-height: 1.07;
@@ -76,8 +76,10 @@ color: var(--accent-color);
 .title{color: var(--title-color);
     font-weight: 700;
     font-size: 36px;
-        line-height: 1.1;
-        letter-spacing: 0.02em; 
+        line-height: 1.11; 
+        text-align:center;
+letter-spacing: 0.02em;
+text-transform: capitalize
 }
 .title-text{ color: var(--title-color);
     font-weight: 500;
@@ -99,7 +101,7 @@ color: var(--accent-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.11;
-    text-align: center;
+    text-align:center;
     letter-spacing: 0.02em;
     text-transform: capitalize;}
     /* SeKtion4 */
@@ -109,9 +111,11 @@ color: var(--accent-color);
 .footer-style{background-color: var(--title-color)
 }
 .text-post-footer{ color: var(--background-color);
+    font-style: normal;
     font-weight: 400;
         font-size: 16px;
-        line-height: 1.5;}
+        line-height: 1.5;
+        letter-spacing: 0.02em;}
 .color-footer-logo{ color: #F4F4FD;
 
 }
