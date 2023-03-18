@@ -3,79 +3,91 @@
 --title-color: #2E2F42;
 --accent-color: #4D5AE5;}
 body {
+    color: #434455;
     font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
 }
 
 /* LOGOTYP */
-.logo{text-decoration: none;}
-.logoweb {color: var(--accent-color) ;
-    width: 44px;
-    height: 24px; 
-    font-family: 'Raleway';
-    font-style: normal;
+.link{
+ text-decoration: none;}
+.logo{
+    text-decoration: none;
+color: var(--accent-color);
+    font-family: 'Raleway'sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.3;}
-    .logostudio{ color: var(--title-color);
-        width: 71px;
-        height: 24px;
-        font-family: 'Raleway';
-        font-size: 18px;
-        line-height: 1.3;}
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;}
+        .color{ color: var(--title-color)}
         /* Navigation */
-        .ul-style{list-style: none;}
+        .list-style{list-style: none;}
+        .link{font-weight: 500;
+            font-size: 16;
+            line-height: 1.5;
+            letter-spacing: 0,2em;
+            color: var(--title-color);}
         .link:hover,
-        .link:focus{color: var(--accent-color);}
-       .link{
-        text-decoration: none;
-            color: var(--title-color);
-            font-weight: 500;
-font-size: 16px;
-line-height: 1.5;}
+        .link:focus{color: #404bbf;}
+       
 /* Contakts */
+.address-style{
+    font-size: normal;
+
+
+
+}
 .contacts:hover,
-.contacts:focus{color: var(--accent-color);}
+.contacts:focus{color:#404bbf;}
 .contacts{
     text-decoration: none;
     
     color: var(--text-color);
         font-weight: 400;
         font-size: 16px;
-        line-height: 1.5px;}
+        line-height: 1.5;
+        letter-spacing: 0.02em   
+    }
         /* Sektion1 */
+        .section-style{background-color: var(--title-color) ;
+
+        }
         .title{ color: var(--background-color);
                 font-weight: 700;
                 font-size: 56px;
-                line-height: 1.1; }
+                line-height: 1.07;
+            text-align: center;
+        letter-spacing: 0.02em;
+    color: #FFFFFF; }
                 /* Button */
                 .button{ color:#FFFFFF;
                     background-color: var(--accent-color);
                     cursor: pointer; 
-                    width: 169px;
-                        height: 56px;
-                        left: 636px;
-                        top: 428px;
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 1.5;
+                    letter-spacing: 0.04em;
                         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
                             border-radius: 4px}
 .button:hover,
 .button:focus,
-.button:active {color: var(--accent-color);
-}
-.button-text{ color: #FFFFFF;
-    font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
+.button:active {color:#404bbf;
 }
 /* Sektion2 */
+
 .title{color: var(--title-color);
     font-weight: 700;
     font-size: 36px;
         line-height: 1.1;
+        letter-spacing: 0.02em; 
 }
 .title-text{ color: var(--title-color);
     font-weight: 500;
         font-size: 20px;
         line-height:1.2;
+        letter-spacing: 0.02em;
 }
 .list-text{
     color: var(--text-color);
@@ -84,20 +96,29 @@ line-height: 1.5;}
         line-height: 1.5;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-/* Sektion4 */
+/* Sektion3 */
 .title-post-text{
     color: var(--text-color);
     font-weight: 400;
     font-size: 16px;
-        line-height: 1.5px;
-}
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;}
+    /* SeKtion4 */
+    .section-white-style{ background-color: #F4F4FD; }
+
 /* Footer */
+.footer-style{background-color: var(--title-color)
+}
 .text-post-footer{ color: var(--background-color);
     font-weight: 400;
         font-size: 16px;
-        line-height: 1.5;
+        line-height: 1.5;}
+.color-footer-logo{ color: #F4F4FD;
 
 }
+
 
 /* Portfolio */
 .button-text-portfolio{color: #4D5AE5;
