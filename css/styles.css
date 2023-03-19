@@ -67,7 +67,7 @@ color: var(--accent-color)}
                     letter-spacing: 0.04em;
                         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
                             border-radius: 4px}
-.button:hover{ background-color: #404BBF;}
+.button:hover,
 .button:focus {
      background-color: #404BBF;}
 .button:active 
@@ -126,13 +126,22 @@ text-transform: capitalize
 
 
 /* Portfolio */
-.button-text-portfolio{color:var(--accent-color);
-    font-family: 'Roboto'sans-serif;
+/* .button-text-portfolio{color:var(--accent-color);
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em
+} */
+button-style{color:var(--accent-color);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em
+
 }
+
 .button-style{background: #F4F4FD;
     border: 1px solid #E7E9FC;
     cursor:pointer;
