@@ -12,13 +12,13 @@ body {
 .link{
  text-decoration: none;}
 .logo{
-color: var(--accent-color);
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    text-transform: uppercase;}
+    text-transform: uppercase;
+color: var(--accent-color)}
         .color{ color: var(--title-color)}
         /* Navigation */
         .list{list-style: none;}
@@ -27,8 +27,8 @@ color: var(--accent-color);
             line-height: 1.5;
             letter-spacing: 0,2em;
             color: var(--title-color);}
-        .link:hover,
-        .link:focus{color: #404BBF;}
+        .link-menu:hover,
+        .link-menu:focus{color: #404BBF;}
        
 /* Contakts */
 .address-style{
@@ -67,13 +67,13 @@ color: var(--accent-color);
                     letter-spacing: 0.04em;
                         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
                             border-radius: 4px}
-.button:hover{ color: #404BBF;}
+.button:hover{ background-color: #404BBF;}
 .button:focus {
-     color: #404BBF;}
+     background-color: #404BBF;}
 .button:active 
 /* Sektion2 */
 
-.title{color: var(--title-color);
+  .title {color: var(--title-color);
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11; 
@@ -125,10 +125,12 @@ text-transform: capitalize
 
 
 /* Portfolio */
-.button-text-portfolio{color: #4D5AE5;
+.button-text-portfolio{color:var(--accent-color);
+    font-family: 'Roboto'sans-serif;
     font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
+letter-spacing: 0.04em
 }
 .button-style{background: #F4F4FD;
     border: 1px solid #E7E9FC;
@@ -139,6 +141,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 .button-style:focus,
 .button-style:hover{
     background-color: #404BBF;
+    color: #FFFFFF;
 }
 .button-text-portfolio:focus,
 .button-text-portfolio:hover{font-size: 16px;
