@@ -28,14 +28,14 @@ color: var(--accent-color);
             letter-spacing: 0,2em;
             color: var(--title-color);}
         .link:hover,
-        .link:focus{color: #404bbf;}
+        .link:focus{color: #404BBF;}
        
 /* Contakts */
 .address-style{
     font-style: normal;
 }
 .contacts:hover,
-.contacts:focus{color:#404bbf;}
+.contacts:focus{color:#404BBF;}
 .contacts{
     text-decoration: none;
     
@@ -47,8 +47,8 @@ color: var(--accent-color);
     }
         /* Sektion1 */
         .section-style{background-color: var(--title-color) ;
-
         }
+                .sektion-white {background-color: #FFFFFF;}
         .title-hero{ color: var(--background-color);
                 font-weight: 700;
                 font-size: 56px;
@@ -67,20 +67,21 @@ color: var(--accent-color);
                     letter-spacing: 0.04em;
                         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
                             border-radius: 4px}
-.button:hover{ color: #404bbf;}
+.button:hover{ color: #404BBF;}
 .button:focus {
-     color: #404bbf;}
+     color: #404BBF;}
 .button:active 
 /* Sektion2 */
 
 .title{color: var(--title-color);
-    font-weight: 700;
-    font-size: 36px;
-        line-height: 1.11; 
-        text-align:center;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11; 
+text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize
 }
+
 .title-text{ color: var(--title-color);
     font-weight: 500;
         font-size: 20px;
@@ -100,12 +101,14 @@ text-transform: capitalize
     color: var(--text-color);
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.11;
+    line-height: 1.5;
     text-align:center;
     letter-spacing: 0.02em;
     text-transform: capitalize;}
     /* SeKtion4 */
-    .section-white-style{ background-color: #F4F4FD; }
+.background-cloud{
+    background-color: #F4F4FD;
+}
 
 /* Footer */
 .footer-style{background-color: var(--title-color)
@@ -135,13 +138,12 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .button-style:focus,
 .button-style:hover{
-    background: #4D5AE5;
+    background-color: #404BBF;
 }
 .button-text-portfolio:focus,
 .button-text-portfolio:hover{font-size: 16px;
     line-height: 1.5;
-    color:#FFFFFF;;
-
+    color:#FFFFFF;
 }
 
 
