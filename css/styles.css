@@ -23,12 +23,12 @@ color: var(--accent-color)}
         /* Navigation */
         .list{list-style: none;}
         .link-menu{font-weight: 500;
-            font-size: 16;
+            font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0,2em;
             color: var(--title-color);}
-        .link-menu:hover,
-        .link-menu:focus{color: #404BBF;}
+     .link-menu:hover,
+       .link-menu:focus{color: #404BBF;}
        
 /* Contakts */
 .address-style{
@@ -73,8 +73,7 @@ color: var(--accent-color)}
 .button:active 
 /* Sektion2 */
 
-  .title {color: var(--title-color);
-font-weight: 700;
+ .title {color: var(--title-color);
 font-size: 36px;
 line-height: 1.11; 
 text-align: center;
@@ -109,7 +108,9 @@ text-transform: capitalize
 .background-cloud{
     background-color: #F4F4FD;
 }
-
+.background-white{
+    color: #FFFFFF;
+}
 /* Footer */
 .footer-style{background-color: var(--title-color)
 }
