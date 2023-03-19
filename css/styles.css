@@ -9,8 +9,6 @@ body {
 }
 
 /* LOGOTYP */
-.link{
- text-decoration: none;}
 .logo{
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -20,7 +18,7 @@ body {
     text-transform: uppercase;
 color: var(--accent-color)}
         .color{ color: var(--title-color)}
-        /* Navigation */
+        /* MENU NAVIGATION STYLE */
         .list {list-style: none;}
         .nav>.list{list-style:none;}
         .link-menu{font-weight: 500;
@@ -31,65 +29,61 @@ color: var(--accent-color)}
      .link-menu:hover,
        .link-menu:focus{color: #404BBF;}
        
-/* Contakts */
+/* CONTAKTS ADRESS */
 .address-style{
     font-style: normal;
 }
+.contacts {
+    text-decoration: none;
+
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em
+}
 .contacts:hover,
 .contacts:focus{color:#404BBF;}
-.contacts{
-    text-decoration: none;
-    
-    color: var(--text-color);
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em   
-    }
-        /* Sektion1 */
-        .section-style{background-color: var(--title-color) ;
+
+      /* BUTTON STUDIO STYLE */
+    .button {
+     color: #FFFFFF;
+     background-color: var(--accent-color);
+ cursor: pointer;
+ font-family: 'Roboto', sans-serif;
+       font-weight: 500;
+     font-size: 16px;
+     line-height: 1.5;
+letter-spacing: 0.04em;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   border-radius: 4px
+     }               
+   .button:focus,
+   .button:hover {
+   background-color: #404BBF;
+   }
+  .button:active
+/* STUDIO 1 SECTION */
+        .section-style { background-color: var(--title-color);
         }
-                .sektion-white {background-color: #FFFFFF;}
-        .title-hero{ color: var(--background-color);
-                font-weight: 700;
-                font-size: 56px;
-                line-height: 1.07;
-            text-align: center;
-        letter-spacing: 0.02em;
-    color: #FFFFFF; }
-                /* Button */
-                .button{ color:#FFFFFF;
-                    background-color: var(--accent-color);
-                    cursor: pointer; 
-                    font-family: 'Roboto', sans-serif;
-                    font-weight: 500;
-                    font-size: 16px;
-                    line-height: 1.5;
-                    letter-spacing: 0.04em;
-                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-                            border-radius: 4px}
-.button:hover,
-.button:focus {
-     background-color: #404BBF;}
-.button:active 
-/* Sektion2 */
-
-   .title{color: var(--title-color);
-    font-weight: 700;
-font-size: 36px;
-line-height: 1.11; 
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize
-}
-
- .list .title-text{ color: var(--title-color);
+ .title-hero {
+     color: var(--background-color);
+     font-weight: 700;
+     font-size: 56px;
+     line-height: 1.07;
+     text-align: center;
+     letter-spacing: 0.02em;
+     color: #FFFFFF;
+ }
+ /* SEKTION 2 TEXT STYLE */
+ .sektion-white {background-color: #FFFFFF;}
+ .title-text{ color: var(--title-color);
     font-weight: 500;
         font-size: 20px;
         line-height:1.2;
         letter-spacing: 0.02em;
 }
-  .list .list-text{
+.list-text{
     color: var(--text-color);
     font-weight: 400;
         font-size: 16px;
@@ -97,8 +91,20 @@ text-transform: capitalize
         letter-spacing: 0.02em;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-/* Sektion3 */
-  .list .title-post-text{
+/* SEKTION 3 BLACKGROUND */
+.background-white{
+    color:#FFFFFF;
+}
+/* SEKTION 3 TEXT STYLE */
+ .title{color: var(--title-color);
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.11; 
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize
+}
+  .title-post-text{
     color: var(--text-color);
     font-weight: 400;
     font-size: 16px;
@@ -106,56 +112,49 @@ text-transform: capitalize
     text-align:center;
     letter-spacing: 0.02em;
     text-transform: capitalize;}
-    /* SeKtion4 */
+    /* SEKTION 4 BACKGROUND */
 .background-cloud{
     background-color: #F4F4FD;
 }
- .background-white{
-    color:#FFFFFF;
-}
-/* Footer */
+ 
+/* FOOTER LOGOTYP + BLACKGROUND */
 .footer-style{background-color: var(--title-color)
 }
+.color-footer-logo{ color: #F4F4FD;}
+/* FOOTER TEXT STYLE */
 .text-post-footer{ color: var(--background-color);
     font-style: normal;
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;}
-.color-footer-logo{ color: #F4F4FD;
-
-}
-
-.button.button-style.button-text-portfolio{color:var(--accent-color);
+/* PORTFOLIO CSS */
+/* BUTTON STYLE(PORTFOLIO) */
+.button-style{ background: #F4F4FD;
+        border: 1px solid #E7E9FC;
+        cursor:pointer;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)}
+.button-text-portfolio{  color:#4D5AE5;
     font-family: "Roboto", sans-serif;
+    font-style: normal;
     font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.04em;
-    background: #F4F4FD;
-    border: 1px solid #E7E9FC;
-    cursor:pointer;
-border-radius: 4px;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
+letter-spacing: 0.04em; }
 .button-style:focus,
-.button-style:hover{
+.button-style:hover {
     background-color: #404BBF;
-    color: #FFFFFF;}
-
-/* button-style>.button-text-portfolio{color:var(--accent-color);
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em; */
-
-
-  .button-style.button-text-portfolio:focus,
-   .button-style.button-text-portfolio:hover{font-size: 16px;
-    line-height: 1.5;
-    color:#FFFFFF;
+    color: #FFFFFF;
 }
+.button-text-portfolio:focus,
+.button-text-portfolio:hover{color: #FFFFFF;}
+
+
+    .link{
+        text-decoration: none;}
+
+
 
 
 
