@@ -126,7 +126,7 @@ text-transform: capitalize
 
 }
 
-.button-style{color:var(--accent-color);
+.button.button-style.button-text-portfolio{color:var(--accent-color);
     font-family: "Roboto", sans-serif;
     font-weight: 500;
 font-size: 16px;
