@@ -21,7 +21,8 @@ body {
 color: var(--accent-color)}
         .color{ color: var(--title-color)}
         /* Navigation */
-        .list{list-style: none;}
+        .list {list-style: none;}
+        .nav>.list{list-style:none;}
         .link-menu{font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
