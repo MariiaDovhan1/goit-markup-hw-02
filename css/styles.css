@@ -22,7 +22,7 @@ color: var(--accent-color);
         .color{ color: var(--title-color)}
         /* Navigation */
         .list{list-style: none;}
-        .link{font-weight: 500;
+        .link-menu{font-weight: 500;
             font-size: 16;
             line-height: 1.5;
             letter-spacing: 0,2em;
