@@ -24,7 +24,7 @@ color: var(--accent-color)}
         .link-menu>.link{font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
-            letter-spacing: 0,2em;
+            letter-spacing: 0.2em;
             color: var(--title-color);}
      .link-menu>.link:hover,
        .link-menu>.link:focus{color: #404BBF;}
@@ -135,22 +135,19 @@ text-transform: capitalize
         cursor:pointer;
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)}
- .button-style .button-text-portfolio{  color:#4D5AE5;
+ .button-text-portfolio>.button-style{ color:#4D5AE5;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em; }
-.button-style:focus,
-.button-style:hover {
-    background-color: #404BBF;
-    color: #FFFFFF;
+.button-style:hover,
+.button-style:focus{
+    background-color:#404BBF;
 }
-.button-text-portfolio:focus,
-.button-text-portfolio:hover{color: #FFFFFF;}
-
-
+.button-text-portfolio>.button-style:focus,
+.button-text-portfolio>.button-style:hover{color: #FFFFFF;}
     .link{
         text-decoration: none;}
 
