@@ -116,6 +116,9 @@ text-transform: capitalize
 .background-cloud{
     background-color: #F4F4FD;
 }
+.list-style-studio{
+    background-color: #FFFFFF;
+}
  
 /* FOOTER LOGOTYP + BLACKGROUND */
 .footer-style{background-color: var(--title-color)
