@@ -4,13 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
 
     <title>Portfolio</title>
   </head>
@@ -18,43 +23,50 @@
   <body>
     <header>
       <!-- Navigation -->
-      <nav>
-        <a class="link logo" href="./index.html"
-          >Web<span class="color">Studio</span></a
-        >
+      <div class="conteiner">
+        <div class="wrap header-container">
+          <nav class="header-navigation list">
+            <a class="link logo" href="./index.html"
+              >Web<span class="color">Studio</span></a
+            >
 
-        <ul class="list">
-          <li class="link-menu">
-            <a class="link" href="./index.html">Studio</a>
-          </li>
-          <li class="link-menu">
-            <a class="link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="link-menu"><a class="link" href="">Contacts</a></li>
-        </ul>
-      </nav>
-      <!-- Contaks -->
-      <address class="address-style">
-        <ul class="list">
-          <li>
-            <a class="contacts link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="contacts link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+            <ul class="header-list list">
+              <li class="link-menu">
+                <a class="link" href="./index.html">Studio</a>
+              </li>
+              <li class="link-menu">
+                <a class="link" href="./portfolio.html">Portfolio</a>
+              </li>
+              <li class="link-menu"><a class="link" href="">Contacts</a></li>
+            </ul>
+          </nav>
+
+          <!-- Contaks -->
+
+          <address class="header-address link">
+            <ul class="address-list list">
+              <li class="link-menu link-contacts">
+                <a class="link contacts" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="link-menu link-contacts">
+                <a class="link contacts" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+      </div>
     </header>
 
     <!-- Section-button-->
     <main>
+      <div class="container">
       <section class="sektion-white">
         <h1 hidden>Button</h1>
-        <ul class="list">
+        <ul class="button-position-portfolio list">
           <li class="button-text-portfolio">
             <button type="button" class="button-style">All</button>
           </li>
@@ -71,21 +83,23 @@
             <button type="button" class="button-style">Marketing</button>
           </li>
         </ul>
-        <ul class="list">
-          <li>
-            <a class="link" href="">
+      <div class="image-wrap">
+      <ul class=" list-image-portfolio list">
+          <li class="image-item-wrap">
+            <a class=" image-portfolio link" href="">
               <img
                 src="./images/bankingapp.jpg"
                 width="360"
                 height="300"
                 alt="screenshots-app"
               />
-
-              <h2 class="title-text">Banking App Interface Concept</h2>
-              <p class="title-post-text">App</p></a
-            >
+<div class="image-content-text">
+              <h2 class=" title-text">Banking App Interface Concept</h2>
+              <p class="title-post-text">App</p>
+            </div>
+          </a>
           </li>
-          <li>
+          <li class="image-item-wrap">
             <a class="link" href="">
               <img
                 src="./images/payment.jpg"
@@ -93,11 +107,13 @@
                 height="300"
                 alt="Mobile QR scan"
               />
+              <div class="image-content-text">
               <h2 class="title-text">Cashless Payment</h2>
-              <p class="title-post-text">Marketing</p></a
-            >
+              <p class="title-post-text">Marketing</p>
+            </div>
+          </a>
           </li>
-          <li>
+          <li class="image-item-wrap">
             <a class="link" href="">
               <img
                 src="./images/meditationapp.jpg"
@@ -105,12 +121,14 @@
                 height="300"
                 alt="laptop and Mobil"
               />
+              <div class="image-content-text">
               <h2 class="title-text">Meditation App</h2>
-              <p class="title-post-text">App</p></a
-            >
+              <p class="title-post-text">App</p>
+            </div>
+          </a>
           </li>
 
-          <li>
+          <li class="image-item-wrap">
             <a class="link" href="">
               <img
                 src="./images/taxiservice.jpg"
@@ -118,11 +136,13 @@
                 height="300"
                 alt="steering a car using navigation"
               />
+               <div class="image-content-text">
               <h2 class="title-text">Taxi Service</h2>
-              <p class="title-post-text">Marketing</p></a
-            >
+              <p class="title-post-text">Marketing</p>
+            </div>
+          </a>
           </li>
-          <li>
+          <li class="image-item-wrap">
             <a class="link" href="">
               <img
                 src="./images/screen.jpg"
@@ -130,11 +150,13 @@
                 height="300"
                 alt="Screen saver with full moon"
               />
+              <div class="image-content-text">
               <h2 class="title-text">Screen Illustrations</h2>
-              <p class="title-post-text">Design</p></a
-            >
+              <p class="title-post-text">Design</p>
+            </div>
+            </a>
           </li>
-          <li>
+          <li class="image-item-wrap">
             <a class="link" href="">
               <img
                 src="./images/onlinekurz.jpg"
@@ -142,11 +164,13 @@
                 height="300"
                 alt="girl listens to online lecture"
               />
+              <div class="image-content-text">
               <h2 class="title-text">Online Courses</h2>
-              <p class="title-post-text">Marketing</p></a
-            >
+              <p class="title-post-text">Marketing</p>
+            </div>
+          </a>
           </li>
-          <li>
+          <li class="image-item-wrap">
             <a class="link" href="">
               <img
                 src="./images/instagramapp.jpg"
@@ -154,11 +178,13 @@
                 height="300"
                 alt="Instagram design example snapshots"
               />
+               <div class="image-content-text">
               <h2 class="title-text">Instagram Stories Concept</h2>
-              <p class="title-post-text">Design</p></a
-            >
+              <p class="title-post-text">Design</p>
+            </div>
+          </a>
           </li>
-          <li>
+          <li class="image-item-wrap">
             <a class="link" href="">
               <img
                 src="./images/food.jpg"
@@ -166,11 +192,14 @@
                 height="300"
                 alt="a woman carrying a bag of fresh vegetables"
               />
+               <div class="image-content-text">
               <h2 class="title-text">Organic Food</h2>
-              <p class="title-post-text">Web Site</p></a
-            >
+              <p class="title-post-text">Web Site</p>
+            
+            </div>
+          </a>
           </li>
-          <li>
+          <li class="image-item-wrap">
             <a class="link" href="">
               <img
                 src="./images/coffee.jpg"
@@ -178,22 +207,31 @@
                 height="300"
                 alt="The process of making fresh coffee"
               />
+               <div class="image-content-text">
               <h2 class="title-text">Fresh Coffee</h2>
-              <p class="title-post-text">Web Site</p></a
-            >
+              <p class="title-post-text">Web Site</p>
+            
+            </div>
+          </a>
           </li>
         </ul>
+        </div>
       </section>
+    </div>
     </main>
     <!-- Foteer -->
     <footer class="footer-style">
-      <a class="link logo" href="./index.html"
-        >Web<span class="color-footer-logo">Studio</span></a
-      >
-      <p class="text-post-footer">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="container">
+        <a class="footer-logo link logo" href="./index.html"
+          >Web<span class="color-footer-logo">Studio</span></a
+        >
+        <div class="text-footer-positon">
+          <p class="text-post-footer">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
