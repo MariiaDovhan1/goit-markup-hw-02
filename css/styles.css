@@ -58,7 +58,7 @@ display: flex;
     align-items: center;
 border-bottom: 1px solid  #E7E9FC;
 }
-.header-navigation{margin-left: auto;}
+/* .header-navigation{margin-left: auto;} */
 
         /* LOGOTYP */
         .logo {
