@@ -13,7 +13,10 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css.map"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="css/styles.css" />
     <title>Web Studio</title>
@@ -22,46 +25,45 @@
   <body>
     <header>
       <!-- Navigation -->
-      <div class="conteiner">
-        <div class="wrap header-container">
-          <nav class="header-navigation list">
-            <a class="link logo" href="./index.html"
-              >Web<span class="color">Studio</span></a
-            >
+      <div class="conteiner header-container">
+        <nav class="header-navigation list">
+          <a class="link logo" href="./index.html"
+            >Web<span class="color">Studio</span></a
+          >
 
-            <ul class="header-list list">
-              <li class="link-menu">
-                <a class="link" href="./index.html">Studio</a>
-              </li>
-              <li class="link-menu">
-                <a class="link" href="./portfolio.html">Portfolio</a>
-              </li>
-              <li class="link-menu"><a class="link" href="">Contacts</a></li>
-            </ul>
-          </nav>
+          <ul class="header-list list">
+            <li class="link-menu">
+              <a class="link" href="./index.html">Studio</a>
+            </li>
+            <li class="link-menu">
+              <a class="link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="link-menu"><a class="link" href="">Contacts</a></li>
+          </ul>
+        </nav>
 
-          <!-- Contacs -->
-          <address class="header-address link">
-            <ul class="address-list list">
-              <li class="link-menu link-contacts">
-                <a class="link contacts" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li class="link-menu link-contacts">
-                <a class="link contacts" href="tel:+110001111111"
-                  >+11 (000) 111-11-11</a
-                >
-              </li>
-            </ul>
-          </address>
-        </div>
+        <!-- Contaks -->
+
+        <address class="header-address link">
+          <ul class="address-list list">
+            <li class="link-menu link-contacts">
+              <a class="link contacts" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="link-menu link-contacts">
+              <a class="link contacts" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
       </div>
     </header>
     <main>
       <!-- Section1 -->
       <section class="hero footer-style">
-        <div class="button-position">
+        <div class="conteiner">
           <h1 class="title-hero">Effective Solutions for Your Business</h1>
           <button type="button" class="button">
             Order Service
@@ -106,7 +108,7 @@
       </section>
       <!-- Section3 -->
       <section class="section-work sektion-white">
-        <div class="container container-work">
+        <div class="container">
           <h2 class="title-work title">What are we doing</h2>
           <ul class="list">
             <li class="item-image">
