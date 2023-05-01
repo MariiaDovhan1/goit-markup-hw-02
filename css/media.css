@@ -242,11 +242,7 @@ font-size: 56px;
     align-items: flex-start;
     justify-content: flex-start;
 }
- /* .form-footer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}     */
+
 .form-footer{
         display: flex;
             flex-direction: unset;
@@ -390,6 +386,9 @@ font-size: 56px;
 
 .footer-container{
     gap: 80px;
+}
+.footer-logo{
+    margin: 0px;
 }
 .footer-style {
     

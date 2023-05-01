@@ -18,7 +18,7 @@ body {
     font-family: "Roboto", sans-serif;
     background-color: #FFFFFF;
     font-size: 16px;
-    /* letter-spacing: 0.2em; */
+ letter-spacing: 0.02em; 
 }
 img {
     display: block;
@@ -31,8 +31,6 @@ margin:0;
 list-style: none;}
 
 .section{
-    /* padding-top: 120px;
-    padding-bottom: 120px; */
     padding-top: 96px;
     padding-bottom: 96px;
 }
@@ -166,9 +164,6 @@ transition: var(--transition);
 }
 
 
-.mob-menu-list{
-
-}
 .mob-contacts-phone {
     font-weight: 700;
     font-size: 36px;
@@ -193,10 +188,6 @@ margin-bottom: 40px;
 .address-list-menu {
     margin-bottom: 48px;
 }
-
- .mob-menu-item{
-
- }
  .soc-list-mobile{
  display: flex;
  gap: 56px;
@@ -234,9 +225,6 @@ margin-bottom: 40px;
                 url(../images/Hero-mobile2x.jpg);
     }
 }
-
-
-
 
   .title-hero {
    
@@ -295,12 +283,9 @@ margin-bottom: 40px;
       display: block;
   }
 .section-white {
-    /* padding: 120px 0px; */
     padding: 96px 0px;
 }
-/* .section-white>.container{
-    max-width: 427px;
-} */
+
 .list-item>.icon-box{
     display: none;
 }
@@ -322,7 +307,6 @@ margin-bottom: 72px; }
 .title-text {
     color: var(--title-color);
     font-weight: 700;
-    /* font-size: 20px; */
     font-size: 36px;
     line-height:calc(40/36);
     letter-spacing: 0.02em;
@@ -343,16 +327,7 @@ margin-bottom: 72px; }
       /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
   }
  
-  /* .feature-list {
-      display: flex;
-      gap: 72px;
-      flex-wrap: wrap;
-      justify-content: center;
-  } */
 
-   /* .list>.item {
-      width: 264px;
-  }  */
  
        /* SECTION-3 >What are we doing-STUDIO-STYLE */
 
@@ -402,7 +377,6 @@ color: var(--title-color);
 }
 
 .item-image-team {
-    /* margin-right: 24px; */
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
