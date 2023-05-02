@@ -233,25 +233,30 @@ font-size: 56px;
 .footer-input{
     min-width: 264px;
 }
-.footer-container{
-    gap: 72px 24px;
-}
-.content-logotext,
-.content-social-media,
-.content-subscribe{
-    align-items: flex-start;
-    justify-content: flex-start;
-}
+
 
 .form-footer{
         display: flex;
-            flex-direction: unset;
-            align-items: flex-start;
             width: 100%;
     gap: 24px;
 }
+.button-footer{
+    margin: 0;
+}
+.footer-text-media{
+    margin-right: auto;
+    margin-left: 0px;
+}
+.content-logotext{
+    display: block;
+            margin-right: 96px;
+}
+.footer-flex{
+        display: flex;
+            gap: 24px;
+            margin-bottom: 72px;
+}
 .content-social-media {justify-content: flex-start;
-
 }
 }
 
@@ -385,7 +390,11 @@ font-size: 56px;
 /* FOOTER */
 
 .footer-container{
+    display: flex;
     gap: 80px;
+}
+.footer-flex{
+    margin-bottom: 0px;
 }
 .footer-logo{
     margin: 0px;
