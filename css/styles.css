@@ -350,7 +350,7 @@ color: var(--title-color);
 }
 .background-cloud {
     background-color: #F4F4FD;
-    padding: 120px 0px;
+    padding: 96px 0px;
 }
  .list-team {
      width: 100%;
@@ -619,11 +619,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     height:24px;
    margin-top: 2px;
 }
-/* .form-footer{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;} */
+
  
    /* BUTTON STYLE(PORTFOLIO) */
 
@@ -747,10 +743,8 @@ image-portfolio{
     background-color: rgba(0, 0, 0, 0.25);
     transition: opacity 300ms linear, visibility 300ms linear;
 }
-.modal{
-    /* width:392px ;
-   height: 586px; */
 
+.modal{
 
 width: 95%;
 max-width: 392px;

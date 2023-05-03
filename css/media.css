@@ -233,7 +233,9 @@ font-size: 56px;
 .footer-input{
     min-width: 264px;
 }
-
+.footer-container{
+   display: flex;
+}
 
 .form-footer{
         display: flex;
@@ -249,7 +251,6 @@ font-size: 56px;
 }
 .content-logotext{
     display: block;
-            margin-right: 96px;
 }
 .footer-flex{
         display: flex;
@@ -257,6 +258,9 @@ font-size: 56px;
             margin-bottom: 72px;
 }
 .content-social-media {justify-content: flex-start;
+}
+.modal{
+    overflow: hidden;
 }
 }
 
@@ -353,6 +357,9 @@ font-size: 56px;
       font-weight:400;
   } 
 /* SECTION-3 >What are we doing-STUDIO-STYLE */
+.background-cloud {
+    padding: 120px 0px;
+}
 
 .section-work{
     padding-bottom: 120px;
@@ -395,6 +402,7 @@ font-size: 56px;
 }
 .footer-flex{
     margin-bottom: 0px;
+    gap: 120px;
 }
 .footer-logo{
     margin: 0px;
